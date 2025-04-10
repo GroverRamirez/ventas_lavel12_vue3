@@ -10,6 +10,7 @@ import AppLogo from './AppLogo.vue';
 import { ShoppingCart } from 'lucide-vue-next';
 import { CalendarCog } from 'lucide-vue-next';
 import { Users } from 'lucide-vue-next';
+import { ChartColumnStacked } from 'lucide-vue-next';
 
 const mainNavItems: NavItem[] = [
     {
@@ -20,7 +21,7 @@ const mainNavItems: NavItem[] = [
     {
         title: 'Categorias',
         href: '/categorias',
-        icon: CalendarCog,
+        icon: ChartColumnStacked,
     },
     {
         title: 'Productos',
